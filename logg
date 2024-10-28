@@ -1,0 +1,86 @@
+So for this assignment I do want to aim for VG
+which means I have to start with translating the
+base project into a react one.
+
+Easy enough, I think: Break the index.html into
+smaller components. I think I might have to
+also expose some things into variables that
+other .jsx files can access so I can script
+things more modularly.
+
+After some right proper frustrations
+with Vite and how it wants to handle import
+logic, the project is now functioning 
+in ReactJS!
+
+For some reason, it wouldn't import and
+apply CSS if I didn't move the css files into
+src/assets/*.css , which was strange.
+Additionally I also had to make sure 
+I imported my .jsx modules as:
+import Module from 'Module.jsx';
+instead of my usual
+import { Module } from 'Module.jsx';
+
+I am now ready to actually start
+scripting the assignment!
+
+TODO - TODO - TODO - TODO - TODO
+[X] - Toggle selection of available chairs.
+[X] - ^ Should not work on Occupied chairs.
+[] - Update price in accordance with selection.
+[] - EsLint code, structure it well.
+[] - Ask teacher for clarification on bullets
+[X] - Fetch json with film information.
+[] - Create a readme.md for github project.
+
+VG TODO:
+
+[] - All of the above.
+[X] - Use React
+[] - Add the button "book" that shows a form.
+[x] - Explain and motivate why ReactJS
+[] - Produktionssätt med Github Actions på Pages
+
+
+Why ReactJS?
+Simple, really. I haven't used @ReactJS in a 
+while and I thought it could be fun to challenge 
+myself a bit. As this project would have a bunch
+more active components ( as in interactive. )
+than I normally would make.
+
+Working on getting my film selection to populate.
+Having an issue where I can't embed a function
+within the JSX return.
+
+Turns out, I was using the wrong syntax.
+{{ Function() }} isn't calling a function
+it's placing it as an object? I think?
+which it doesn't like.
+
+Single curly brackets is how I call functions.
+
+Now the problem is that I'm struggling to get it
+to play along with my for loop. It is ignoring it
+entirely.
+
+I have sought help from a web developer friend
+on the matter, apparently there is a "new" way
+of making a for loop in modern js.
+
+Typical javascript, needlessly overcomplicating
+things.
+
+I managed to solve my issue in a manner that I 
+can not in good faith confidently explain.
+This is very much one of those "I found it
+on stackoverflow" solutions, and I am fine with
+this.
+
+The solution involves using useState and useEffect
+to resolve the Object Promise asyncronously 
+before it reaches the jsx renderer. 
+see line 7-15 in Films.jsx for the code.
+
+
