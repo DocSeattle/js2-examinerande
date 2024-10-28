@@ -83,4 +83,10 @@ to resolve the Object Promise asyncronously
 before it reaches the jsx renderer. 
 see line 7-15 in Films.jsx for the code.
 
+Continued frustrations, spent the weekend trying
+to toggle a class on a component div.
+
+Did not realize that you could classList.toggle("class");
+So much time wasted. But it works now.
+
 

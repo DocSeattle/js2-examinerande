@@ -1,8 +1,9 @@
 import './assets/Seats.css';
 import Seat from  './Seat.jsx';
-export default function Seats()
-{
 
+
+export default function Seats()
+{ 
   let x = 0;
     return (
       <>
@@ -69,6 +70,8 @@ export default function Seats()
                 <Seat i={x++} occupied={false}></Seat>
               </div>
             </div>
+            
       </>
+      
     )
 }
