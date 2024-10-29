@@ -30,7 +30,7 @@ TODO - TODO - TODO - TODO - TODO
 [X] - ^ Should not work on Occupied chairs.
 [] - Update price in accordance with selection.
 [] - EsLint code, structure it well.
-[] - Ask teacher for clarification on bullets
+[] - Create a javascript class for Movie with Name and Price properties.
 [X] - Fetch json with film information.
 [] - Create a readme.md for github project.
 
@@ -82,11 +82,5 @@ The solution involves using useState and useEffect
 to resolve the Object Promise asyncronously 
 before it reaches the jsx renderer. 
 see line 7-15 in Films.jsx for the code.
-
-Continued frustrations, spent the weekend trying
-to toggle a class on a component div.
-
-Did not realize that you could classList.toggle("class");
-So much time wasted. But it works now.
 
 
