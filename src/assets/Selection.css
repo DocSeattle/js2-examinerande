@@ -1,7 +1,12 @@
 p.text {
   margin: 5px 0;
+  font-size: 15px;
+  text-align: center;
 }
 
 p.text span {
   color: #6feaf6;
+}
+p.text span:first-of-type {
+  margin-left: 2px;
 }

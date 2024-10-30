@@ -28,18 +28,19 @@ scripting the assignment!
 TODO - TODO - TODO - TODO - TODO
 [X] - Toggle selection of available chairs.
 [X] - ^ Should not work on Occupied chairs.
-[] - Update price in accordance with selection.
-[] - EsLint code, structure it well.
-[] - Create a javascript class for Movie with Name and Price properties.
+[X] - Update price in accordance with selection.
+[X] - EsLint code, structure it well.
+[I think?] - Create a javascript class for Movie with Name and Price properties.
 [X] - Fetch json with film information.
-[] - Create a readme.md for github project.
+[X] - Create a readme.md for github project.
 
 VG TODO:
 
-[] - All of the above.
+[X] - All of the above.
 [X] - Use React
-[] - Add the button "book" that shows a form.
-[x] - Explain and motivate why ReactJS
+[X] - Add the button "book" that shows a form.
+[X] - Explain and motivate why ReactJS
+[X] - Make a button that shows a form.
 [] - Produktionssätt med Github Actions på Pages
 
 

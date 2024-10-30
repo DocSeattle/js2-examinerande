@@ -15,6 +15,8 @@ export default function Films()
   }, []);
 
   return (
+    <>
+    
     <div className="movie-container">
     <label htmlFor="movie">Pick a film:</label>
     <select  name="movie" id="movie" defaultValue='0'>
@@ -23,5 +25,7 @@ export default function Films()
       )) }
     </select> 
    </div>
+    
+    </>
  );
 }

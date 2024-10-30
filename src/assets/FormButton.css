@@ -1,0 +1,28 @@
+#toggleForm {
+  display: flex;
+  margin: auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  border: 2px solid slateblue;
+  border-radius: 5px;
+}
+
+#seatsForm > div > input{
+    width: 50%;
+}
+input#email {
+    width: 100%;
+}
+form#seatsForm > * > input, form#seatsForm > input {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  border: 2px solid slateblue;
+  border-radius: 5px;
+}
+form#seatsForm > input#confirm {
+    margin: 1em auto;
+    display: block;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    
+}
