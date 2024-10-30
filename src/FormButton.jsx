@@ -3,7 +3,6 @@ import PropTypes from "prop-types";
 import { SelectionContext } from "./SelectionContext";
 export default function FormButton({ stateValue }) {
   let hideForm = true;
-
   return (
     <>
       <input
@@ -11,20 +10,20 @@ export default function FormButton({ stateValue }) {
         aria-label="Confirm Seats"
         type="button"
         onClick={() => {
-      const target = (document.getElementById("form-container"));
-      switch (hideForm && stateValue >= 0) {
-        case true:
-          target.removeAttribute("hidden");
-          hideForm = !hideForm;
-          return;
-        case false:
-          target.setAttribute("hidden", true);
-          hideForm = !hideForm;
-          return;
-      }
-    }
-        }
-      value="Book Seats" />
+          const target = document.getElementById("form-container");
+          switch (hideForm && stateValue >= 0) {
+            case true:
+              target.removeAttribute("hidden");
+              hideForm = !hideForm;
+              return;
+            case false:
+              target.setAttribute("hidden", true);
+              hideForm = !hideForm;
+              return;
+          }
+        }}
+        value="Book Seats"
+      />
       <div hidden={hideForm} id="form-container">
         <form id="seatsForm">
           <input
@@ -35,9 +34,24 @@ export default function FormButton({ stateValue }) {
             placeholder="Your E-Mail:"
           ></input>
           <div id="payment-info">
-          <input type="number" id="paymentinfo" aria-label="payment info" placeholder="card number"></input>
-          <input type="month" id="date" aria-label="expiration date" placeholder="MM/YY"/>
-          <input type="number" id="cvc" aria-label="cvc" placeholder="CVC"></input>
+            <input
+              type="number"
+              id="paymentinfo"
+              aria-label="payment info"
+              placeholder="card number"
+            ></input>
+            <input
+              type="month"
+              id="date"
+              aria-label="expiration date"
+              placeholder="MM/YY"
+            />
+            <input
+              type="number"
+              id="cvc"
+              aria-label="cvc"
+              placeholder="CVC"
+            ></input>
           </div>
           <SelectionContext.Provider value={stateValue}>
             <div>

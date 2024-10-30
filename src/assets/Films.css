@@ -13,7 +13,7 @@ select {
 label {
   text-align: center;
   font-weight: bold;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .movie-container select {
   background-color: #fff;

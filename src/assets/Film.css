@@ -1,23 +1,23 @@
 .film-display {
-    display: flex;
-    flex-wrap: nowrap;
-    place-self: center right;
-    width: 100%;
-    height: auto;
-    overflow: hidden;
+  display: flex;
+  flex-wrap: nowrap;
+  place-self: center right;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
 }
 .film-h3 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 24px;
-    color: white;
-    text-align: left; 
-    border: 2px black;
-    box-shadow: 4px 4xp 4px white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 24px;
+  color: white;
+  text-align: left;
+  border: 2px black;
+  box-shadow: 4px 4xp 4px white;
 }
 
 .film-h5 {
-    font-family:'Times New Roman', Times, serif;
-    font-size: 16px;
-    color: white;
-    text-align: left;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  color: white;
+  text-align: left;
 }
