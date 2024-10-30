@@ -11,7 +11,7 @@ export default function Selection({stateValue})
             You have selected 
             <span id="count">{stateValue}&nbsp;</span>
             seats for a price of $
-            <span id="total">{`${stateValue * (document.getElementById("movie") == null ? 171717 : document.getElementById("movie").value)  }:-`}</span>
+            <span id="total">{`${stateValue * (document.getElementById("movie") == null ? 8008 : document.getElementById("movie").value)  }:-`}</span>
         </p>
        </SelectionContext.Provider>
        </>
